@@ -71,3 +71,9 @@
 #pauseBtn, #resumeBtn {
     display: none;
 }
+
+.laps span {
+    display: block;
+    color: #175cff;
+    font-weight: bold;
+}

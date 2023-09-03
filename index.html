@@ -14,6 +14,8 @@
     <div class="container">
         <h1>Cronômetro.js</h1>
         <div class="timer">
+            <div class="time" id="hours">00</div>
+            <div class="separator">:</div>
             <div class="time" id="minutes">00</div>
             <div class="separator">:</div>
             
@@ -29,6 +31,13 @@
             <button class="btn" id="pauseBtn">Pausar</button>
             <button class="btn" id="resumeBtn">Continuar</button>
             <button class="btn" id="resetBtn">Recomeçar</button>
+            <button class="btn" id="markBtn">Marcar Tempo</button>
+        </div>
+
+        <div class="laps">
+            <span id="lap1"></span>
+            <span id="lap2"></span>
+            <span id="lap3"></span>
         </div>
     </div>
 </body>
